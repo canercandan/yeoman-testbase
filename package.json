@@ -1,6 +1,6 @@
 {
   "name": "yeoman-testbase",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test base class provides routines to mock generators inside the test specs",
   "homepage": "",
   "author": {
