@@ -1,0 +1,38 @@
+{
+  "name": "yeoman-testbase",
+  "version": "0.1.0",
+  "description": "Test base class provides routines to mock generators inside the test specs",
+  "homepage": "",
+  "author": {
+    "name": "Caner Candan",
+    "email": "caner@candan.fr",
+    "url": "http://caner.candan.fr"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "yeoman-testbase"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.21.1"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.0.0",
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "repository": "canercandan/yeoman-testbase",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
